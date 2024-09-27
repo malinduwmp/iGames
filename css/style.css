@@ -1,0 +1,324 @@
+body {
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+}
+
+.card .form-label {
+    color: #ffffff;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.form-control::placeholder {
+    color: #cccccc;
+}
+
+.btn-primary {
+    background: #0d6efd;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background: #0b5ed7;
+}
+
+.link-custom {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-custom:hover {
+    color: #0b5ed7;
+    text-decoration: underline;
+}
+
+.modal-content {
+    background: #141E30;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.btn-close-white {
+    filter: invert(1);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+  /* Custom styles can be added here */
+  body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.logoa {
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40; /* Dark color for logo text */
+}
+.company-name {
+    color: #ff4d05; /* Orange color for company name */
+}
+.navbar-nav .nav-link {
+    color: #6c757d; /* Gray color for navbar links */
+}
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Blue color for active navbar link */
+}
+.card-header {
+    background-color: #007bff; /* Blue color for card header */
+    color: white; /* White color for card header text */
+}
+.card {
+    margin-bottom: 20px; /* Bottom margin for cards */
+}
+.footer {
+    background-color: #343a40; /* Dark color for footer background */
+    color: white; /* White color for footer text */
+    padding: 20px 0; /* Padding for footer content */
+    position: fixed; /* Fixed position at the bottom */
+    width: 100%; /* Full width */
+    text-align: center; /* Center align text */
+    bottom: 0; /* Stick to the bottom */
+}
+
+.btn_p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #ff4d05;
+    outline: none;
+    transition: 0.2s;
+    border-radius: 5px;
+  }
+  
+  .btn_p:hover {
+    background-color: #ff4d05;
+    border: 1px solid #ff4d05;
+  }
+  
+  
+  body.userAuthBody {
+    font-family: 'Arial',white sans-serif;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.auth-box {
+
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.auth-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.auth-box label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.auth-box input, .auth-box select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-box button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.auth-box .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.btn-link {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .auth-box {
+        padding: 20px;
+    }
+
+    .auth-box h2 {
+        font-size: 20px;
+    }
+}
+
+.title1 {
+    font-size: 25px;
+    font-weight: bold;
+    background-position: center;
+}
+
+.blur{
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.2);
+        -webkit-backdrop-filter: blur(5px); 
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 20px;
+}
+
+
+/* <style> product card  */
+.product-card {
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.05);
+}
+
+.card-body {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.watchlist-btn {
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    color: red;
+    background: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.watchlist-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.watchlist-btn .fas.fa-heart {
+    font-size: 1.5rem;
+}
+
+.pagination .page-link {
+    color: #fff;
+    background-color: #343a40;
+    border: none;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.pagination .page-link:hover {
+    background-color: #495057;
+}
+/* </style product cart > */
+
+.scroll-to-top-btn {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: #007bff; /* Example background color */
+color: #fff; /* Example text color */
+border: none;
+outline: none;
+cursor: pointer;
+padding: 10px;
+border-radius: 50%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transition: background-color 0.3s ease;
+}
+
+.scroll-to-top-btn:hover {
+background-color: #0056b3; /* Example hover background color */
+}
